@@ -1,0 +1,6 @@
+最外层:div#memebox_com
+
+        div.container   :   1150px
+        div#topBar  :   height:31px  bgc:FF5073
+        搜索框：height：40px;    width:423px;
+        div#nav 最左边的商品分类： w161px    h47px   bgc:#F2F2F2
