@@ -1,0 +1,78 @@
+#memebox_com{
+    width: 100%;
+    position:relative;
+    #main{
+        background-color: #F9F9F9;
+        padding-top: 20px;
+        .container{
+        overflow:hidden;
+            .mainleft{
+                width: 185px;
+                height: 577px;
+                background-color: #FFF;
+                padding:8px 15px;
+                margin-right: 14px;
+                p{
+                    border-bottom: 1px solid #ccc;
+                    font-size:20px;
+                    line-height: 40px;
+                    height: 45px;
+                    color:#333;
+                    cursor:pointer;
+                }
+                .pink{
+                    color:#ff5073;
+                }
+                ul{
+                    margin-top: 15px;
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            color:#333;
+                            font-size:14px;
+                        }
+                        a:hover{
+                            color:#ff5073;
+                        }
+                    }
+                }
+            }
+            .mainright{
+                width: 921px;
+                height: 120px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background: url("../images/mymemebg.png");
+                .userr{
+                    margin-left: 31px;
+                }
+                .uname{
+                    display:inline-block;
+                    margin-left: 30px;
+                    .xinjin{
+                        color:#fff;
+                        display:block;
+                        margin-bottom: 5px;
+                    }
+                    span{
+                        color:#fff;
+                        font-size:20px;
+                    }
+                    .qiandao{
+                        display:block;
+                        width: 140px;
+                        height: 37px;
+                        text-align:center;
+                        color:#fff;
+                        background-color: #973447;
+                        line-height: 32px;
+                        border-radius:16px;
+                    }
+                    .qiandao:hover{
+                        color:#272727;
+                    }
+                }
+            }
+        }
+    }
+}

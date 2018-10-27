@@ -1,0 +1,115 @@
+#memebox_com{
+    #top{
+        border-bottom: none;
+    }
+    width: 100%;
+    #main{
+        .container{
+            .checkAll,.checkone{
+                width: 20px;
+                height: 20px;
+            }
+            .mainTop,.mainBottom{
+                width: 1128px;
+                height: 18px;
+                border:1px solid #ccc;
+                overflow:hidden;
+                margin-top: 20px;
+                background-color: #F9F9F9;
+                color:#999;
+                font-size:14px;
+                padding: 16px 10px;
+                position:relative;
+                margin-bottom: 20px;
+                .other{
+                    overflow:hidden;
+                    float:right;
+                    margin-right: 20px;
+                    li{
+                        float:left;
+                        margin-left: 110px;
+                    }
+                }
+                .msg{
+                    margin-left: 50px;
+                }
+                a{
+                    font-size:14px;
+                    color:#666;
+                    margin-right: 15px;
+                }
+                a:hover{
+                    color:#ff5073;
+                }
+                .tobuy{
+                    height: 50px;
+                    position:absolute;
+                    top: 0;
+                    right: 0;
+                    width: 161px;
+                    background-color: #ff5073;
+                    color:#fff;
+                    font-size:20px;
+                    cursor:pointer;
+                }
+                .totalCount{
+                    margin-right: 188px;
+                    color:#666;
+                    font-size:14px;
+                    .pink,.count{
+                        color:#ff5073;
+                        font-size:20px;
+                    }
+                }
+            }
+            .goodsList{
+                li{
+                    width: 1128px;
+                    padding: 16px 10px;
+                    border-bottom: 1px solid #ccc;
+                    img{
+                        border:1px solid #ccc;
+                        width: 80px;
+                        height: 80px;
+                        margin-left: 41px;
+                    }
+                    .name{
+                        color:#333;
+                        margin-left: 33px;
+                    }
+                    .none{
+                        margin-left: 210px;
+                        color:#333;
+                    }
+                    .singlePrice{
+                        color:#333;
+                        font-size:14px;
+                        margin-left: 120px;
+                    }
+                    .num{
+                        width: 50px;
+                        height: 20px;
+                        border:1px solid #ccc;
+                        text-align:center;
+                        margin-left: 98px;
+                    }
+                    .singleTotal{
+                        color:#ff5073;
+                        font-size:14px;
+                        margin-left: 93px;
+                    }
+                    .del{
+                        color:#333;
+                        margin-left: 109px;
+                    }
+                    .del:hover{
+                        color:#ff5073;
+                    }
+                    .none1{
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+}

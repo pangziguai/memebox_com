@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8" />
     <title>全球知名化妆品平台- 美美箱MEMEBOX- memebox</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/public.css" />
-    <link rel="stylesheet" type="text/css" href="lib/swiper/swiper.min.css" />
-    <script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/public.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="lib/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/public.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/swiper/swiper.min.css" />
+    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/public.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../lib/swiper/swiper.min.js"></script>
 </head>
 <body>
     <div id="memebox_com">
@@ -26,8 +27,8 @@
                 </span>
                 <span class="topBarRight fr">
                     <ul>
-                        <li><a href="html/login.html"><span>登录</span></a></li>
-                        <li><a href="html/register.html"><span>注册</span></a></li>
+                        <li><a href="#" class="out"><span>退出</span></a></li>
+                        <li><a href="#" class="mymeme"><span>我的MEMEBOX</span></a></li>
                         <li><a href="#"><span><i class="icon-mobile2"></i>手机APP</span></a></li>
                         <li><a href="#"><span><i class="icon-headphones"></i>在线客服</span></a></li>
                     </ul>
@@ -46,7 +47,7 @@
                 <div class="topRight fr">
                     <span></span>
                     <a href="#">
-                    <img src="images/erweimaRight.png" alt="" /></a>
+                    <img src="../images/erweimaRight.png" alt="" /></a>
                 </div>
             </div>
         </div>
@@ -57,12 +58,12 @@
                     <span>商品分类</span>
                 </div>
                 <ul class="navRight fl">
-                    <li><a href="#" title="主页">主页</a></li>
-                    <li><a href="#" title="礼盒">礼盒</a></li>
+                     <li><a href="#" title="主页" class="main">主页</a></li>
+                    <li><a href="#" title="礼盒" class="giftbox">礼盒</a></li>
                     <li><a href="#" title="PONY" class="pony">PONY</a></li>
                     <li><a href="#" title="美美妆" class="memebeauty">美美妆</a></li>
                     <li><a href="#" title="I'M MEME" class="meme">I'M MEME</a></li>
-                    <li><a href="#" title="K-BEAUTY STYLE">K-BEAUTY STYLE</a></li>
+                    <li><a href="#" title="K-BEAUTY STYLE" class="kbeauty">K-BEAUTY STYLE</a></li>
                 </ul>
             </div>
         </div>
@@ -166,11 +167,26 @@
         </ul>
         <div id="banner">
         </div>
+        <div class="shoppingCart">
+            <p class="shopTop">
+            购物车
+                <span class="closeBtn">&times;</span>
+            </p>
+            <ul class="shopList">
+                <span class="f12">购物车空空如也</span>
+            </ul>
+            <div class="shopBottom">
+                <p class="f14">本仓共 <span class="goodscount">0</span> 件商品<span class="aa fr">￥<span class="goodsTotal fr">0</span></span></p>
+                <button class="toCount f16">去购物车结算 
+                </button>
+            </div>
+        </div>
         <div class="sideBar">
             <ul class="sideBarCenter">
                 <li class="shoppingCar">
                     <i class="icon-cart"></i>
                     <span>购物车</span>
+                    <span class="number f12">0</span>
                 </li>
                 <li class="user">
                    <a href="#"><i class="icon-user"></i></a>
@@ -202,15 +218,15 @@
                 <span class="f14">爱你所爱，为你寻觅世间好物</span>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/goods1.jpg" /><p>LEADERS 丽得姿 润美蜗牛修复面膜10片</p>
+                        <div class="swiper-slide"><img src="../images/goods1.jpg" /><p>LEADERS 丽得姿 润美蜗牛修复面膜10片</p>
                         <span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods2.jpg" /><p>LEADERS 丽得姿 润美幻彩亮颜修复面膜10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods3.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods4.jpg" /><p>Pony Effect 持久控油遮瑕粉饼</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods5.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods6.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods7.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
-                        <div class="swiper-slide"><img src="images/goods8.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods2.jpg" /><p>LEADERS 丽得姿 润美幻彩亮颜修复面膜10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods3.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods4.jpg" /><p>Pony Effect 持久控油遮瑕粉饼</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods5.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods6.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods7.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
+                        <div class="swiper-slide"><img src="../images/goods8.jpg" /><p>LEADERS 丽得姿 光亮效果提拉珍珠面膜 10片</p><span class="nowPrice">￥96.00</span><span class="oldPrice"><del>￥240.00</del></span></div>
                     </div>
                 </div>
                 <div class="swiper-button-prev"></div>
@@ -218,14 +234,16 @@
             </div>
         </div>
         <div id="main">
-            <div class="container"></div>
+            <div class="container">
+                <ul class="goodList"></ul>
+            </div>
         </div>
         <div class="center">
             <ul>
-                <li><img src="images/genuine.png"><span>100%正品</span></li>
-                <li><img src="images/low.png"><span>优质低价</span></li>
-                <li><img src="images/deliver.png"><span>极速发货</span></li>
-                <li><img src="images/refund.png"><span>退换无忧</span></li>
+                <li><img src="../images/genuine.png"><span>100%正品</span></li>
+                <li><img src="../images/low.png"><span>优质低价</span></li>
+                <li><img src="../images/deliver.png"><span>极速发货</span></li>
+                <li><img src="../images/refund.png"><span>退换无忧</span></li>
             </ul>
         </div>
         <div class="guanyu">
@@ -234,9 +252,9 @@
                     <div class="mess">
                         <span>关于我们</span>
                         <ul>
-                            <li><a href="#"><img src="images/meme.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/wechat.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/sina.png" alt="" /></a></li>
+                            <li><a href="#"><img src="../images/meme.png" alt="" /></a></li>
+                            <li><a href="#"><img src="../images/wechat.png" alt="" /></a></li>
+                            <li><a href="#"><img src="../images/sina.png" alt="" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -281,7 +299,7 @@
             <div class="zhizhao f12">
                 <div class="container">
                     <span class="fl">© 2015 Memebox Corporation. All Rights Reserved.</span>
-                    <span class="fr"><img src="images/icon.gif" alt="" />蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号 营业执照</span>
+                    <span class="fr"><img src="../images/icon.gif" alt="" />蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号 营业执照</span>
                 </div>
             </div>
         </div>

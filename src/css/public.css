@@ -1,0 +1,606 @@
+.center {
+  width: 100%;
+  height: 145px;
+  border-bottom: 1px solid #ccc;
+  background-color: #F3F1F2;
+  padding-top: 45px;
+}
+
+.center ul li {
+  float: left;
+  margin-left: 166px;
+  margin-right: 80px;
+}
+
+.center ul li span {
+  font-size: 20px;
+  display: block;
+  color: #333;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.guanyu {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  height: 323px;
+  overflow: hidden;
+}
+
+.guanyu .m1 {
+  height: 322px;
+  width: 298px;
+}
+
+.guanyu .m1 .mess {
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+.guanyu .m1 .mess span {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-left: 46px;
+}
+
+.guanyu .m1 .mess ul {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.guanyu .m1 .mess ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+.guanyu .m2, .guanyu .m3, .guanyu .m4, .guanyu .m5 {
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-right: 50px;
+  margin-top: 30px;
+  border-left: 1px solid #ccc;
+}
+
+.guanyu .m2 li:nth-child(1), .guanyu .m3 li:nth-child(1), .guanyu .m4 li:nth-child(1), .guanyu .m5 li:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.guanyu .m2 li, .guanyu .m3 li, .guanyu .m4 li, .guanyu .m5 li {
+  margin-bottom: 10px;
+}
+
+.guanyu .m2 li a, .guanyu .m3 li a, .guanyu .m4 li a, .guanyu .m5 li a {
+  font-size: 14px;
+  color: #333;
+}
+
+.guanyu .m2 li a:hover, .guanyu .m3 li a:hover, .guanyu .m4 li a:hover, .guanyu .m5 li a:hover {
+  color: #ff5073;
+}
+
+.message {
+  width: 100%;
+}
+
+.message .lianxi {
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.message .lianxi span {
+  font-size: 14px;
+  color: #333;
+  margin-right: 30px;
+}
+
+.message .lianxi span:nth-child(2) {
+  margin-left: 330px;
+}
+
+.message .lianxi .lianxi1 {
+  display: block;
+  margin: 0 auto 10px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.message .zhizhao {
+  height: 38px;
+}
+
+.message .zhizhao span {
+  color: #ccc;
+  line-height: 26px;
+}
+
+.message .zhizhao span img {
+  width: 35px;
+  height: 35px;
+}
+
+.sideBar {
+  width: 35px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #272727;
+  opacity: 0.7;
+  color: #fff;
+}
+
+.sideBar .sideBarCenter {
+  margin-bottom: 80px;
+}
+
+.sideBar .sideBarCenter li:hover {
+  background-color: #FC0034;
+}
+
+.sideBar .sideBarCenter .shoppingCar {
+  width: 35px;
+  height: 120px;
+  padding-left: 8px;
+  margin-top: 130px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.sideBar .sideBarCenter .shoppingCar span {
+  display: block;
+  width: 14px;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.sideBar .sideBarCenter .shoppingCar .number {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: #ED145B;
+  border-radius: 30px;
+  margin-top: 3px;
+  margin-left: -1px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sideBar .sideBarCenter .user, .sideBar .sideBarCenter .favorite, .sideBar .sideBarCenter .list {
+  width: 35px;
+  height: 29px;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 6px;
+}
+
+.sideBar .sideBarCenter .user a, .sideBar .sideBarCenter .favorite a, .sideBar .sideBarCenter .list a {
+  color: #fff;
+}
+
+.sideBar i {
+  font-size: 20px;
+}
+
+.sideBar .sideBarBtm li {
+  width: 35px;
+  height: 29px;
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.sideBar .sideBarBtm li:hover {
+  background-color: #FC0034;
+}
+
+.sideBar .sideBarBtm .toTop {
+  height: 40px;
+  display: none;
+}
+
+.sideBar .sideBarBtm .toTop .icon-eject {
+  font-size: 12px;
+}
+
+.sideBar .sideBarBtm .toTop span {
+  display: block;
+  font-size: 12px;
+}
+
+.sideBar div {
+  width: 79px;
+  height: 35px;
+  background-color: #272727;
+  position: absolute;
+  top: 0;
+  left: -92px;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+.sideBar div::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 6px solid transparent;
+  border-left-color: #272727;
+  position: absolute;
+  left: 79px;
+  top: 11px;
+}
+
+.sideBar .userBox {
+  top: 281px;
+}
+
+.sideBar .favoriteBox {
+  top: 330px;
+}
+
+.sideBar .listBox {
+  top: 380px;
+}
+
+.sideBar .kefuBox {
+  top: 495px;
+}
+
+.sideBar .toTopBox {
+  top: 545px;
+  height: 46px;
+  line-height: 42px;
+}
+
+#topBar {
+  width: 100%;
+  background-color: #FF5073;
+}
+
+#topBar .container {
+  height: 31px;
+}
+
+#topBar .container .topBarLeft a {
+  color: #fff;
+  line-height: 32px;
+}
+
+#topBar .container .topBarLeft a .icon-clipboard {
+  font-size: 18px;
+}
+
+#topBar .container .topBarLeft .sign {
+  margin-right: 5px;
+}
+
+#topBar .container .topBarLeft .sign:hover {
+  text-decoration: underline;
+}
+
+#topBar .container .topBarRight ul li {
+  float: left;
+}
+
+#topBar .container .topBarRight ul li a span {
+  color: #fff;
+  line-height: 32px;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+#topBar .container .topBarRight ul li a span .icon-mobile2, #topBar .container .topBarRight ul li a span .icon-headphones {
+  font-size: 16px;
+}
+
+#topBar .container .topBarRight ul li:nth-child(2) span {
+  border-right: 2px solid #fff;
+  padding-right: 20px;
+}
+
+#top {
+  width: 100%;
+  background-color: #FFF;
+  border-bottom: 1px solid #ccc;
+}
+
+#top .container {
+  height: 93px;
+  overflow: hidden;
+}
+
+#top .container h1 {
+  width: 236px;
+  height: 36px;
+  background: url("../images/logo.png");
+  text-indent: -100em;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+#top .container .searchBox {
+  width: 403px;
+  height: 30px;
+  border: 1px solid #ff5073;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 120px;
+  border-radius: 40px;
+  padding: 6px 0 0 20px;
+  margin-top: 27px;
+}
+
+#top .container .search {
+  width: 300px;
+  margin-top: -11px;
+  font-size: 18px;
+}
+
+#top .container .searchBtn {
+  background-color: #FFF;
+  margin-left: 62px;
+  cursor: pointer;
+}
+
+#top .container .searchBtn .searchPic {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url("../images/top_icon.png") no-repeat 0 -88px;
+}
+
+#top .container .topRight {
+  width: 235px;
+  height: 82px;
+  background: url("../images/top_icon.png") no-repeat 0 -198px;
+  margin-top: 8px;
+  margin-right: 21px;
+}
+
+#top .container .topRight img {
+  width: 86px;
+  height: 86px;
+  margin-left: 86px;
+  border: 2px solid #FF5073;
+  margin-top: -4px;
+  margin-left: 98px;
+}
+
+#nav {
+  width: 100%;
+}
+
+#nav .container {
+  border-bottom: 1px solid #ccc;
+}
+
+#nav .navLeft {
+  width: 141px;
+  height: 29px;
+  background-color: #f2f2f2;
+  padding-top: 18px;
+  color: #333333;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+#nav .navLeft .icon-menu {
+  font-size: 20px;
+}
+
+#nav .navRight li {
+  float: left;
+  height: 47px;
+}
+
+#nav .navRight li a {
+  color: #333;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 63px;
+}
+
+#nav .navRight li a:hover {
+  color: #ff5073;
+}
+
+#nav .navRight :nth-child(1) a {
+  color: #ff5073;
+}
+
+.navBR ul {
+  width: 173px;
+  height: 479px;
+  background-color: #FFF;
+  position: absolute;
+  top: 173px;
+  left: 259px;
+  border-top: 1px solid #ccc;
+  display: none;
+}
+
+.navBR ul li {
+  width: 153px;
+}
+
+.navBR ul li a {
+  display: block;
+  width: 128px;
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 35px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.navBR ul li a:hover {
+  color: #ff5073;
+}
+
+.navBR .active {
+  display: block;
+}
+
+.navBox1, .navBox2, .navBox3 {
+  width: 275px;
+  background-color: #FFF;
+  position: absolute;
+  border-top: 1px solid #ccc;
+  display: none;
+}
+
+.navBox1 li, .navBox2 li, .navBox3 li {
+  height: 19px;
+  padding: 5px 0 6px 15px;
+}
+
+.navBox1 li a, .navBox2 li a, .navBox3 li a {
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.navBox1 li a:hover, .navBox2 li a:hover, .navBox3 li a:hover {
+  color: #ff5073;
+}
+
+.navBox1 {
+  top: 173px;
+  left: 368px;
+}
+
+.navBox2 {
+  top: 173px;
+  left: 420px;
+}
+
+.navBox3 {
+  top: 173px;
+  left: 519px;
+}
+
+.shoppingCart {
+  width: 282px;
+  height: 100%;
+  border: 1px solid #ccc;
+  position: fixed;
+  right: 35px;
+  top: 0;
+  z-index: 998;
+  background-color: #fff;
+  display: none;
+}
+
+.shoppingCart .shopTop {
+  width: 267px;
+  height: 40px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  padding-left: 15px;
+  line-height: 36px;
+}
+
+.shoppingCart .shopTop .closeBtn {
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.shoppingCart .shopList {
+  height: 460px;
+  width: 270px;
+  padding: 20px 6px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.shoppingCart .shopList li {
+  height: 125px;
+  width: 252px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.shoppingCart .shopList li img {
+  width: 100px;
+  height: 80px;
+  margin-top: 15px;
+}
+
+.shoppingCart .shopList li div {
+  display: inline-block;
+}
+
+.shoppingCart .shopList li div p {
+  word-wrap: break-word;
+  color: #333;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.shoppingCart .shopList li div .onePrice {
+  color: #ff5073;
+  font-size: 14px;
+}
+
+.shoppingCart .shopList li div .num {
+  color: #333;
+  font-size: 14px;
+}
+
+.shoppingCart .shopList li:last-child {
+  border-bottom: none;
+}
+
+.shoppingCart .shopBottom {
+  width: 270px;
+  height: 100px;
+  border-top: 1px solid #ccc;
+  margin-left: 6px;
+  display: none;
+}
+
+.shoppingCart .shopBottom p {
+  height: 37px;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 15px;
+}
+
+.shoppingCart .shopBottom p .goodscount, .shoppingCart .shopBottom p .goodsTotal, .shoppingCart .shopBottom p .aa {
+  color: #ff5073;
+}
+
+.shoppingCart .shopBottom .toCount {
+  width: 265px;
+  height: 42px;
+  background-color: #ff5073;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shoppingCart .shopList > span {
+  padding-left: 94px;
+}

@@ -1,0 +1,130 @@
+#memebox_com {
+  width: 100%;
+}
+
+#memebox_com #top {
+  border-bottom: none;
+}
+
+#memebox_com #main .container .checkAll, #memebox_com #main .container .checkone {
+  width: 20px;
+  height: 20px;
+}
+
+#memebox_com #main .container .mainTop, #memebox_com #main .container .mainBottom {
+  width: 1128px;
+  height: 18px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: #F9F9F9;
+  color: #999;
+  font-size: 14px;
+  padding: 16px 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#memebox_com #main .container .mainTop .other, #memebox_com #main .container .mainBottom .other {
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+}
+
+#memebox_com #main .container .mainTop .other li, #memebox_com #main .container .mainBottom .other li {
+  float: left;
+  margin-left: 110px;
+}
+
+#memebox_com #main .container .mainTop .msg, #memebox_com #main .container .mainBottom .msg {
+  margin-left: 50px;
+}
+
+#memebox_com #main .container .mainTop a, #memebox_com #main .container .mainBottom a {
+  font-size: 14px;
+  color: #666;
+  margin-right: 15px;
+}
+
+#memebox_com #main .container .mainTop a:hover, #memebox_com #main .container .mainBottom a:hover {
+  color: #ff5073;
+}
+
+#memebox_com #main .container .mainTop .tobuy, #memebox_com #main .container .mainBottom .tobuy {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 161px;
+  background-color: #ff5073;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#memebox_com #main .container .mainTop .totalCount, #memebox_com #main .container .mainBottom .totalCount {
+  margin-right: 188px;
+  color: #666;
+  font-size: 14px;
+}
+
+#memebox_com #main .container .mainTop .totalCount .pink, #memebox_com #main .container .mainTop .totalCount .count, #memebox_com #main .container .mainBottom .totalCount .pink, #memebox_com #main .container .mainBottom .totalCount .count {
+  color: #ff5073;
+  font-size: 20px;
+}
+
+#memebox_com #main .container .goodsList li {
+  width: 1128px;
+  padding: 16px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#memebox_com #main .container .goodsList li img {
+  border: 1px solid #ccc;
+  width: 80px;
+  height: 80px;
+  margin-left: 41px;
+}
+
+#memebox_com #main .container .goodsList li .name {
+  color: #333;
+  margin-left: 33px;
+}
+
+#memebox_com #main .container .goodsList li .none {
+  margin-left: 210px;
+  color: #333;
+}
+
+#memebox_com #main .container .goodsList li .singlePrice {
+  color: #333;
+  font-size: 14px;
+  margin-left: 120px;
+}
+
+#memebox_com #main .container .goodsList li .num {
+  width: 50px;
+  height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-left: 98px;
+}
+
+#memebox_com #main .container .goodsList li .singleTotal {
+  color: #ff5073;
+  font-size: 14px;
+  margin-left: 93px;
+}
+
+#memebox_com #main .container .goodsList li .del {
+  color: #333;
+  margin-left: 109px;
+}
+
+#memebox_com #main .container .goodsList li .del:hover {
+  color: #ff5073;
+}
+
+#memebox_com #main .container .goodsList li .none1 {
+  display: none;
+}

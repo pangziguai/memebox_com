@@ -1,0 +1,193 @@
+#memebox_com{
+    width: 100%;
+    position:relative;
+    #main{
+        width: 100%;
+        margin-bottom: 30px;
+        .container{
+            overflow:hidden;
+            padding-top: 22px;
+            .mainLeft{
+                margin-right: 20px;
+                .picBig{
+                    width: 530px;
+                    height: 514px;
+                    border:1px solid #ccc;
+                    margin-bottom: 40px;
+                    img{
+                        width: 350px;
+                        height: 350px;
+                        margin-left: 87px;
+                        margin-top: 40px;
+                    }
+                }
+                .picSmall{
+                    width: 77px;
+                    height: 77px;
+                    border:1px solid #ccc;
+                    margin-left: 209px;
+                    cursor:pointer;
+                    img{
+                        width: 77px;
+                        height: 77px;
+                    }
+                }
+                .picSmall:hover{
+                    border:1px solid #333;
+                }
+            }
+            .mainRight{
+                width: 564px;
+                padding-top: 10px;
+                height: 334px;
+                .goodName{
+                    font-size:20px;
+                    color:#333;
+                    height: 65px;
+                }
+                .salePrice{
+                    height: 38px;
+                    background-color: #EDEDED;
+                    padding-left: 15px;
+                    padding-top: 7px;
+
+                }
+                .grey{
+                    font-size:14px;
+                    color:#aaa;
+                }
+                .price{
+                    font-size:22px;
+                    color:#ff5073;
+                    margin-left: 20px;
+                }
+                .meme{
+                    display:inline-block;
+                    width: 93px;
+                    height: 28px;
+                    background-color: #ff5073;
+                    color:#fff;
+                    margin-top: 2px;
+                    text-align:center;
+                    line-height: 28px;
+                    margin-right: 270px;
+                }
+                .add2Like,.add2Cart{
+                    width: 110px;
+                    height: 44px;
+                    border:1px solid #ff5073;
+                    border-radius:5px;
+                    background-color: #FFF;
+                    margin-top: 50px;
+                    color:#ff5073;
+                    margin-left: 5px;
+                    cursor:pointer;
+                }
+                .back{
+                    height: 45px;
+                    background-color: #F7F7F7;
+                    .fan{
+                        display:inline-block;
+                        width: 22px;
+                        height: 20px;
+                        background: url("../images/return.png");
+                        margin-top: 12px;
+                        margin-left: 16px;
+                    }
+                    .backW{
+                        color:#888;
+                        margin-left: 40px;
+                        a{
+                            color:#ff5073;
+                        }
+                    }
+                    .que{
+                        display:inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background: url("../images/question.png");
+                        color:#fff;
+                        text-align:center;
+                        line-height: 18px;
+                        margin-left: 30px;
+                    }
+                }
+                .youfei,.shuliang{
+                    padding-left: 15px;
+                    margin-top: 5px;
+                    color:#888;
+                    .grey{
+                    margin-right: 20px;
+                        .pink{
+                            color:#ff5073;
+                        }
+                    }
+                    .count{
+                        width: 76px;
+                        height: 30px;
+                        border:1px solid #ccc;
+                        padding-left: 20px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .mainTab{
+                width: 520px;
+                border:1px solid #f2f2f2;
+                overflow:hidden;
+                margin-bottom: 20px;
+                li{
+                    width: 130px;
+                    height: 51px;
+                    background-color: #eee;
+                    float:left;
+                    color:#333;
+                    font-size:18px;
+                    text-align:center;
+                    line-height: 53px;
+                    cursor:pointer;
+                }
+                .active{
+                    background-color: #FFF;
+                    color:#ff5073;
+                    border-bottom:1px solid #ff5073;
+                }
+                    
+            }     
+            .tab{
+                width: 100%;
+                margin-bottom: 20px;
+                .tab1{
+                    .pic{
+                        width: 100%;
+                        padding-top: 30px;
+                        padding-left: 183px;
+                        padding-bottom: 20px;
+                    } 
+                }
+                .tab2{
+                    display:none;
+                    width: 1148px;
+                    height: 345px;
+                    border:1px solid #ccc;
+                }
+                .tab3{
+                    display:none;
+                    width: 1148px;
+                    border:1px solid #ccc;
+                    height: 118px;
+                }
+                .tab4{
+                    display:none;
+                    width: 1118px;
+                    height: 50px;
+                    padding-top: 32px;
+                    padding-left: 30px;
+                    border:1px solid #ccc;
+                    font-size:14px;
+                    color:#333;
+                }
+            }
+        }
+    }
+}

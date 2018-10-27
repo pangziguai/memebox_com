@@ -1,0 +1,94 @@
+#memebox_com {
+  width: 100%;
+  position: relative;
+}
+
+#memebox_com #main {
+  background-color: #F9F9F9;
+  padding-top: 20px;
+}
+
+#memebox_com #main .container {
+  overflow: hidden;
+}
+
+#memebox_com #main .container .mainleft {
+  width: 185px;
+  height: 577px;
+  background-color: #FFF;
+  padding: 8px 15px;
+  margin-right: 14px;
+}
+
+#memebox_com #main .container .mainleft p {
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  line-height: 40px;
+  height: 45px;
+  color: #333;
+  cursor: pointer;
+}
+
+#memebox_com #main .container .mainleft .pink {
+  color: #ff5073;
+}
+
+#memebox_com #main .container .mainleft ul {
+  margin-top: 15px;
+}
+
+#memebox_com #main .container .mainleft ul li {
+  margin-bottom: 10px;
+}
+
+#memebox_com #main .container .mainleft ul li a {
+  color: #333;
+  font-size: 14px;
+}
+
+#memebox_com #main .container .mainleft ul li a:hover {
+  color: #ff5073;
+}
+
+#memebox_com #main .container .mainright {
+  width: 921px;
+  height: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url("../images/mymemebg.png");
+}
+
+#memebox_com #main .container .mainright .userr {
+  margin-left: 31px;
+}
+
+#memebox_com #main .container .mainright .uname {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#memebox_com #main .container .mainright .uname .xinjin {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#memebox_com #main .container .mainright .uname span {
+  color: #fff;
+  font-size: 20px;
+}
+
+#memebox_com #main .container .mainright .uname .qiandao {
+  display: block;
+  width: 140px;
+  height: 37px;
+  text-align: center;
+  color: #fff;
+  background-color: #973447;
+  line-height: 32px;
+  border-radius: 16px;
+}
+
+#memebox_com #main .container .mainright .uname .qiandao:hover {
+  color: #272727;
+}

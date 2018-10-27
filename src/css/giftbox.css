@@ -1,0 +1,19 @@
+#memebox_com {
+  width: 100%;
+  position: relative;
+}
+
+#memebox_com #main {
+  width: 100%;
+}
+
+#memebox_com #main .container {
+  overflow: hidden;
+  height: 388px;
+  padding-top: 20px;
+}
+
+#memebox_com #main .container span {
+  color: #333;
+  margin-left: 30px;
+}
