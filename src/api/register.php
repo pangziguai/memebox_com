@@ -16,10 +16,13 @@
         echo "exist";
     }else if($row == []){
         echo "not";
-        $sql1 = "insert into user(uname,password) values('".$uname."','".$password."')";
+        $sql1 = "insert into user(uname,password,goods) values('".$uname."','".$password."','')";
         $result = $conn->query($sql1);
-        if($result == "true"){
+        if($result == true){
             echo "true";
+        }
+        else{
+            echo "nono";
         }
     }
     $conn->close();
